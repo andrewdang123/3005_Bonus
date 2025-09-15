@@ -1,0 +1,12 @@
+Employees (EID, Name, Age, DepartmentID) = {
+    E1, John, 32, D1
+    E2, Alice, 28, D2
+    E3, Bob, 29, D3
+}
+
+Departments (DID, DeptName) = {
+    D1, HR
+    D2, IT
+}
+
+Query: cjoin (project EID, Name, Age (Employees)) (Departments)

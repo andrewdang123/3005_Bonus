@@ -1,0 +1,15 @@
+Employees (EID, Name, Age, Random) = {
+    1, John, 32, 1
+    2, Alice, 28, 2
+    3, Bob, 29, 3
+}
+
+Managers (MID, Name, Age) = {
+    1, John, 32
+    4, Jake, 27
+    3, Bob, 29
+}
+
+Query: intersection (project EID, Name, Age (Employees)) (Managers)
+
+
