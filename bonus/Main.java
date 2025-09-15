@@ -489,7 +489,7 @@ public class Main {
         Map<String, Relations> database = new HashMap<>(); 
         String query = "";
         //Change this part for different files
-        InputStream is = Main.class.getResourceAsStream("/data/projection.txt");
+        InputStream is = Main.class.getResourceAsStream("/data/selection.txt");
         BufferedReader br = new BufferedReader(new InputStreamReader(is));
         String line;
         Relations currentRelation = null;
